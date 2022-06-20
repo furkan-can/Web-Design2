@@ -39,8 +39,51 @@ a {
     text-decoration: none;
 }
 
+.btn{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 1rem;
+    word-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn-primary:hover{
+    background-color: #067a63;
+    border-color: #067a63;
+}
+
+.btn-outline:hover{
+    background-color: white;
+    color: #212529;
+    
+}
+
+.btn-outline{
+    color: white;
+    border-color: white;
+    padding: 2.2rem 1.6rem;
+    background-color: transparent;
+}
+
+.btn-primary{
+    background-color: #1ABC9B;
+    border-color: #1ABC9B ;
+    padding: 1.2rem 2rem;
+    color: white;
+}
+
 ul{
     list-style-type: none;
+}
+
+section{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-align: center;
 }
 
 .img-fluid{
@@ -154,13 +197,6 @@ hr.star-dark{
     position: relative;
 }
 
-#portfolio{
-    height: 600px;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-    text-align: center;
-}
-
 #portfolio h2{
     font-size: 4.8rem;
     color: #2D3D4F;
@@ -209,14 +245,70 @@ hr.star-dark{
 }
 
 .portfolio-item:hover .img-overlay{
-    opacity: 0.7;
+    opacity: 0.85;
 }
 
+/* ABOUT */
+#about{
+    background-color: #1ABC9B;
+    color: white;
+}
 
+#about h2{
+    font-size: 4.8rem;
+}
 
+#about-text{
+    text-align: left;
+}
 
+#about-text .left{
+    float: left;
+    width: 50%;
+    padding-right: 2rem;
+    padding-left: 23rem;
+}
 
+#about-text .right{
+    float: right;
+    width: 50%;
+    padding-left: 2rem;
+    padding-right: 23rem;
+}
 
+#about-text .text{
+    font-size: 2rem;
+}
+
+/* CONTACT */
+
+#contact h2{
+    font-size: 4.8rem;
+    color: #2C3E4F;
+}
+
+#contact-form{
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;    
+}
+
+.form-group{
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 3rem;
+    margin-bottom: 4rem;
+}
+
+.form-group input,textarea{
+    border: none;
+    width: 100%;
+    display: block;
+    font-size: 2.4rem;
+}
+
+.form-group input,textarea:focus{
+    outline: 0;
+}
 
 
 

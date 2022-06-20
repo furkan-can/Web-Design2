@@ -24,8 +24,18 @@ body {
     padding-right: 0.5rem;
 }
 
+.clear-fix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
 a {
     text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
 }
 
 .text-uppercase{
@@ -38,6 +48,11 @@ a {
     font-size: 3.2rem;
 }
 
+#logo-box{
+    float: left;
+    padding-top: 0.5rem;
+}
+
 /* NAVBAR */
 nav {
     font-family: 'Montserrat';
@@ -46,3 +61,45 @@ nav {
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
+
+#nav-links{
+    float: right;
+}
+
+#nav-links .nav-item{
+    float: left;
+    margin: 0.5rem;
+}
+
+#nav-links .nav-link{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 700;
+    display: block;
+    padding: 1.6rem;
+    letter-spacing: 0.1rem;
+    transition: color 0.4s;
+}
+
+#nav-links .nav-link:hover{
+    color: #1ABC9B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

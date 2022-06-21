@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Freelancer - Start Bootstrap Template</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,20 +29,26 @@
                     START BOOTSTRAP
                 </a>
             </div>
-            <div id="nav-links">
+            <div id="nav-links" class="responsive">
                 <ul>
+                    <li class="nav-item text-uppercase nav-icon">
+                        <a href="#" class="nav-link nav-icon-large">
+                            MENU
+                            <i class="fa-solid fa-bars"></i>
+                        </a>
+                    </li>
                     <li class="nav-item text-uppercase">
-                        <a href="#" class="nav-link">
+                        <a href="#portfolio" class="nav-link nav-link-h">
                             Portfolio
                         </a>
                     </li>
                     <li class="nav-item text-uppercase">
-                        <a href="#" class="nav-link">
+                        <a href="#about" class="nav-link nav-link-h">
                             About
                         </a>
                     </li>
                     <li class="nav-item text-uppercase">
-                        <a href="#" class="nav-link">
+                        <a href="#contact" class="nav-link nav-link-h">
                             Contact
                         </a>
                     </li>
@@ -203,7 +210,7 @@
                     Location
                 </h4>
                 <p>
-                    Akdeniz University, 07070, Pinarbasi, Konyaalti, Antalya, Turkey 
+                    Akdeniz University, 07070, Pinarbasi, Konyaalti, Antalya, Turkey
                 </p>
             </div>
 
@@ -214,25 +221,33 @@
                 <ul>
                     <li>
                         <button class="btn btn-outline btn-social">
-                            <i class="fa-brands fa-github"></i>
-                        </button>
-                    </li>
-                    
-                    <li>
-                        <button class="btn btn-outline btn-social">
-                            <i class="fa-brands fa-medium"></i>
+                            <a href="https://github.com/furkan-can" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
                         </button>
                     </li>
 
                     <li>
                         <button class="btn btn-outline btn-social">
-                            <i class="fa-brands fa-linkedin"></i>
+                            <a href="https://medium.com/@furkancan.t" target="_blank">
+                                <i class="fa-brands fa-medium"></i>
+                            </a>
                         </button>
                     </li>
 
                     <li>
                         <button class="btn btn-outline btn-social">
-                            <i class="fa-brands fa-instagram"></i>
+                            <a href="https://www.linkedin.com/in/furkancant/" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="btn btn-outline btn-social">
+                            <a href="https://www.instagram.com/furkancan.t/" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
                         </button>
                     </li>
                 </ul>
@@ -256,6 +271,8 @@
             </small>
         </div>
     </div>
+
 </body>
+<script src="script.js"></script>
 
 </html>

@@ -6,7 +6,8 @@ This site uses the theme of <a href="https://startbootstrap.com/" target="_blank
 
 # Preview
 
+<a href="https://furkan-can.github.io/Web-Design/" target="_blank" >View This Site</a>
+
 ![alt text](https://user-images.githubusercontent.com/79963893/174854927-b9ab33fc-7e38-48dc-b827-a8be27da1970.png)
 
-<a href="https://furkan-can.github.io/Web-Design/" target="_blank" >View This Site</a>
 
